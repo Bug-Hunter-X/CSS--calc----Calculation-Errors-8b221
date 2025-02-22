@@ -1,0 +1,20 @@
+/* bugSolution.css */
+
+/* Correct usage of calc(): Consistent units and proper order of operations */
+.container {
+  width: calc(100% - 20px); /* Correct: 20px has a unit */
+}
+
+.element {
+  width: calc((100% - 50px) / 2); /* Correct: Parentheses for proper order */
+}
+
+/* Another example of consistent units */
+.another-element {
+  height: calc(100vh - 5rem);
+}
+
+/* Correct handling of different units within calc() */
+.mixed-units {
+  margin: calc(10px + 1rem);
+}
